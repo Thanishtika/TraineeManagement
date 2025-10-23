@@ -48,6 +48,7 @@ public class functionTrainee extends HttpServlet {
 
         String idParam = request.getParameter("id");
         String pathInfo = request.getPathInfo();
+        System.out.println(pathInfo);
 
         int id = 0;
         if (idParam != null && !idParam.isEmpty()) {
